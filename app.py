@@ -13,8 +13,22 @@ kik.set_configuration(Configuration(webhook='https://kik-bot-messenger.herokuapp
 
 @app.route('/incoming', methods=['GET'])
 def incoming():
-    return "Hello Incoming"
+    if not kik.verify_signature(request.headers.get('X-Kik-Signature'), request.get_data()):
+        return Response(status=403)
 
+    messages = messages_from_json(request.json['messages'])
+
+    for message in messages:
+        if isinstance(message, TextMessage):
+            kik.send_messages([
+                TextMessage(
+                    to=message.from_user,
+                    chat_id=message.chat_id,
+                    body=message.body
+                )
+            ])
+
+    return Response(status=200)
 
 @app.route("/", methods=['GET'])
 def hello():
