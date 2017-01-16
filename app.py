@@ -11,7 +11,7 @@ config = kik.get_configuration()
 kik.set_configuration(Configuration(webhook='https://kik-bot-messenger.herokuapp.com/incoming'))
 
 
-@app.route('/incoming', methods=['POST'])
+@app.route('/incoming', methods=['GET'])
 def incoming():
     return "Hello Incoming"
 
