@@ -1,3 +1,7 @@
+# Kik bot messenger using Python 3, Flask, Gunicorn and Jinja 2
+# By: Andre Fischbacher
+import json
+import requests
 from flask import Flask, request, Response
 import os
 from kik import KikApi, Configuration
@@ -6,12 +10,11 @@ from kik.messages import messages_from_json, TextMessage
 app = Flask(__name__)
 
 kik = KikApi("afischbacher95", "2dd4a60c-287b-4b95-8252-fd8dfe577759")
-config = kik.get_configuration()
+config = Configuration(webhook='https://kik-bot-messenger.herokuapp.com/incoming')
+kik.set_configuration(config)
 
-kik.set_configuration(Configuration(webhook='https://kik-bot-messenger.herokuapp.com/incoming'))
 
-
-@app.route('/incoming', methods=['GET'])
+@app.route('/incoming', methods=['POST'])
 def incoming():
     if not kik.verify_signature(request.headers.get('X-Kik-Signature'), request.get_data()):
         return Response(status=403)
@@ -30,9 +33,10 @@ def incoming():
 
     return Response(status=200)
 
+
 @app.route("/", methods=['GET'])
 def hello():
-    return "Hello World"
+    return "<h1> Hello Welcome To My Kik Bot Messenger </h1>"
 
 
 if __name__ == "__main__":
