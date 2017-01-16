@@ -40,7 +40,7 @@ def incoming():
         TextMessage(
             to=user,
             chat_id=kik_chat_id,
-            body="Hey Im Andre !"
+            body="Im Andre !"
         )
     ])
 
