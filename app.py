@@ -28,7 +28,7 @@ def incoming():
                 StartChattingMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
-                    body="Hello Welcome to my chat bot!"
+                    body="Hey my name is Andre, this is my super handy dandy chat bot!"
                 )
             ])
 
