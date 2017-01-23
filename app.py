@@ -24,7 +24,7 @@ def incoming():
     for message in messages:
 
         if isinstance(message, StartChattingMessage):
-            kik.send_messages([
+            kik.send_broadcast([
                 StartChattingMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
