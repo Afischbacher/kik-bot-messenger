@@ -4,11 +4,11 @@ import re
 class ResponseLogic():
     def __init__(self, recievedMessage):
 
-        if re.findall("hey | hello | how are you", recievedMessage):
+        if re.search("[Hh]ey | hello | how are you", recievedMessage, re.IGNORECASE):
             self.say_hello()
-        elif re.findall("color | colour", recievedMessage):
+        elif re.search("[Cc]olor | [Cc]olour", recievedMessage, re.IGNORECASE):
             self.get_favourite_color()
-        elif re.findall("what is your name", recievedMessage):
+        elif re.search("[Ww]hat is your name", recievedMessage, re.IGNORECASE):
             self.get_name()
         else:
             self.i_dont_know()
