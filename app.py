@@ -23,21 +23,20 @@ def incoming():
 
     for message in messages:
 
-        if isinstance(message, StartChattingMessage):
-            kik.send_broadcast([
-                StartChattingMessage(
-                    to=message.from_user,
-                    chat_id=message.chat_id,
-                    body="Hey my name is Andre, this is my super handy dandy chat bot!"
-                )
-            ])
+        kik.send_broadcast([
+            StartChattingMessage(
+                to=message.from_user,
+                chat_id=message.chat_id,
+                body="Hey my name is Andre, this is my super handy dandy chat bot!"
+            )
+        ])
 
         if isinstance(message, TextMessage):
             kik.send_messages([
                 TextMessage(
                     to=message.from_user,
-                    chat_id= message.chat_id,
-                    body= "Hey Im Andre!"
+                    chat_id=message.chat_id,
+                    body="Hey Im Andre!"
                 )
             ])
 
