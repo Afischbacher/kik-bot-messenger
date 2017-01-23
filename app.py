@@ -4,12 +4,14 @@
 from flask import Flask, request, Response
 import os
 from kik import KikApi, Configuration
+import ResponseLogic
 from kik.messages import messages_from_json, TextMessage, StartChattingMessage, ScanDataMessage, LinkMessage, \
     DeliveryReceiptMessage, ReadReceiptMessage, VideoMessage
 
 app = Flask(__name__)
 
 kik = KikApi("afischbacher95", "2dd4a60c-287b-4b95-8252-fd8dfe577759")
+
 config = Configuration(webhook='https://kik-bot-messenger.herokuapp.com/incoming')
 kik.set_configuration(config)
 
@@ -22,32 +24,20 @@ def incoming():
     messages = messages_from_json(request.json['messages'])
 
     for message in messages:
-
-        kik.send_broadcast([
-            StartChattingMessage(
-                to=message.from_user,
-                chat_id=message.chat_id,
-                body="Hey my name is Andre, this is my super handy dandy chat bot!"
-            )
-        ])
-
         if isinstance(message, TextMessage):
             kik.send_messages([
                 TextMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
-                    body="Hey Im Andre!"
-                )
-            ])
+                    body= ResponseLogic(message.body)
+                )]
+            )
+        return Response(status=200)
 
-    return Response(status=200)
+    @app.route("/", methods=['GET'])
+    def hello():
+        return "<h1> Hello Welcome To My Kik Bot Messenger, Check out my bot at @afischbacher95 </h1>"
 
-
-@app.route("/", methods=['GET'])
-def hello():
-    return "<h1> Hello Welcome To My Kik Bot Messenger, Check out my bot at @afischbacher95 </h1>"
-
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    if __name__ == "__main__":
+        port = int(os.environ.get("PORT", 5000))
+        app.run(host='0.0.0.0', port=port)
