@@ -25,7 +25,7 @@ def incoming():
 
         if isinstance(message, StartChattingMessage):
             kik.send_messages([
-                TextMessage(
+                StartChattingMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
                     body="Hello Welcome to my chat bot!"
