@@ -10,6 +10,8 @@ class ResponseLogic:
             self.get_favourite_color()
         elif re.findall("what is your name", recievedMessage):
             self.get_name()
+        else:
+            self.i_dont_know()
 
     def say_hello(self):
         return "Hey I'm Andre, this is my chat bot, hope you like it! To get started ask me a question" \
@@ -20,3 +22,6 @@ class ResponseLogic:
 
     def get_name(self):
         return "My name is Andre Fischbacher! Nice to meet you."
+
+    def i_dont_know(self):
+        return "I don't know the answer to that one, sorry!"

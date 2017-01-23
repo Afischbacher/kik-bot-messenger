@@ -24,12 +24,13 @@ def incoming():
     messages = messages_from_json(request.json['messages'])
 
     for message in messages:
+
         if isinstance(message, TextMessage):
             kik.send_messages([
                 TextMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
-                    body= ResponseLogic(message.body)
+                    body= "Hey Im Andre!"
                 )]
             )
         return Response(status=200)
@@ -41,3 +42,4 @@ def incoming():
     if __name__ == "__main__":
         port = int(os.environ.get("PORT", 5000))
         app.run(host='0.0.0.0', port=port)
+    TextMessage
