@@ -4,7 +4,7 @@
 from flask import Flask, request, Response
 import os
 from kik import KikApi, Configuration
-import ResponseLogic
+from ResponseLogic import ResponseLogic
 from kik.messages import messages_from_json, TextMessage, StartChattingMessage, ScanDataMessage, LinkMessage, \
     DeliveryReceiptMessage, ReadReceiptMessage, VideoMessage
 
@@ -30,9 +30,9 @@ def incoming():
                 TextMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
-                    body= "Hey Im Andre!"
-                )]
-            )
+                    body=ResponseLogic(message.body)
+                )
+            ])
         return Response(status=200)
 
     @app.route("/", methods=['GET'])
@@ -42,4 +42,4 @@ def incoming():
     if __name__ == "__main__":
         port = int(os.environ.get("PORT", 5000))
         app.run(host='0.0.0.0', port=port)
-    TextMessage
+    

@@ -1,7 +1,7 @@
 import re
 
 
-class ResponseLogic:
+class ResponseLogic():
     def __init__(self, recievedMessage):
 
         if re.findall("hey | hello | how are you", recievedMessage):
