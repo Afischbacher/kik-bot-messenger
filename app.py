@@ -32,6 +32,15 @@ def incoming():
                 )
             ])
 
+        if isinstance(message, TextMessage):
+            kik.send_messages([
+                TextMessage(
+                    to=message.from_user,
+                    chat_id= message.chat_id,
+                    body= "Hey Im Andre!"
+                )
+            ])
+
     return Response(status=200)
 
 
