@@ -30,16 +30,15 @@ def incoming():
                 TextMessage(
                     to=message.from_user,
                     chat_id=message.chat_id,
-                    body= route_response_logic(message.body)
+                    body=route_response_logic(message.body)
                 )
             ])
         return Response(status=200)
 
-    @app.route("/", methods=['GET'])
-    def hello():
-        return "<h1> Hello Welcome To My Kik Bot Messenger, Check out my bot at @afischbacher95 </h1>"
+@app.route("/", methods=['GET'])
+def hello():
+    return "<h1> Hello Welcome To My Kik Bot Messenger, Check out my bot at @afischbacher95 </h1>"
 
-    if __name__ == "__main__":
-        port = int(os.environ.get("PORT", 5000))
-        app.run(host='0.0.0.0', port=port)
-
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
