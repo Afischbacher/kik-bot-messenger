@@ -43,22 +43,12 @@
       <file leaf-file-name="ResponseLogic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+                <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherLogic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherLogic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -476,7 +466,7 @@
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -513,7 +503,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -550,7 +540,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -587,7 +577,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -624,7 +614,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -661,7 +651,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -690,7 +680,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
@@ -815,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/288047412/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="773" column="8" selection-start-line="773" selection-start-column="8" selection-end-line="773" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/288047412/_sqlite3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -839,6 +821,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/288047412/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -851,11 +841,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1485886216276" expanded="true" signature="375:523" placeholder="SELECT `Answ... Answers" />
+            <marker date="1485888742340" expanded="true" signature="357:505" placeholder="SELECT `Answ... Answers" />
           </folding>
         </state>
       </provider>
