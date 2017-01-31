@@ -17,7 +17,7 @@ def route_response_logic(recieved_message):
         cursor.execute(
             "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE LOWER('%?%') ORDER BY RANDOM() LIMIT 1;",
             msg)
-        if cursor.fetchone():
+        if cursor.fetchall().__len__() > 0:
             answer = cursor.fetchone()
 
     return answer
