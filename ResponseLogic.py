@@ -1,7 +1,7 @@
 import sqlite3
 from flask import g
 
-global conn, cursor
+global conn, cursor, answer
 
 
 def route_response_logic(recieved_message):
@@ -18,6 +18,6 @@ def route_response_logic(recieved_message):
               " `Keywords` LIKE LOWER('%?%') ORDER BY RANDOM() LIMIT 1;"
         cursor.execute(sql, msg)
         if cursor.fetchone():
-            answer = cursor.fetchone().__str__()
+            answer = cursor.fetchone()
         break
     return answer
