@@ -17,9 +17,9 @@ def route_response_logic(recieved_message):
         cursor.execute(
             "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE LOWER('%' || ? || '%') ORDER BY RANDOM() LIMIT 1;",
             (msg,))
-
-        if cursor.rowcount > 0:
-            res = cursor.fetchone()[0]
+        row = cursor.fetchone()
+        if row is not None:
+            res = row[0]
             return res
         else:
             return "Sorry I am not sure about that question or response, I am going to have to get smarter for that one..."
