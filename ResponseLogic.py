@@ -15,11 +15,11 @@ def route_response_logic(recieved_message):
 
     for msg in msg_list:
         cursor.execute(
-                "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE LOWER('%' || ? || '%') ORDER BY RANDOM() LIMIT 1;",
-                (msg,))
-        if len(cursor.fetchone()) > 0:
+            "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE LOWER('%' || ? || '%') ORDER BY RANDOM() LIMIT 1;",
+            (msg,))
+
+        if cursor.rowcount > 0:
             res = cursor.fetchone()[0]
             return res
         else:
-            return "Sorry, I don't have the answer to that, let me get back to you later."
-
+            return "Sorry I am not sure about that question or response, I am going to have to get smarter for that one..."
