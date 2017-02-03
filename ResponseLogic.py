@@ -21,5 +21,5 @@ def route_response_logic(recieved_message):
         if row is not None:
             res = row[0]
             return res
-        else:
-            return "Sorry I am not sure about that question or response, I am going to have to get smarter for that one..."
+
+    return "Sorry I am not sure about that question or response, I am going to have to get smarter for that one..."
