@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa8f058-b7cf-4497-bacb-7e88d69eb04b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ResponseLogic.py" afterPath="$PROJECT_DIR$/ResponseLogic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
@@ -18,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/kik-bot-messenger$test.coverage" NAME="test Coverage Results" MODIFIED="1486081722106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kik-bot-messenger$test.coverage" NAME="test Coverage Results" MODIFIED="1486082835656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kik-bot-messenger$Kik_Bot_Messenger.coverage" NAME="Kik Bot Messenger Coverage Results" MODIFIED="1484597201562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -45,11 +44,11 @@
       <file leaf-file-name="ResponseLogic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="152" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
+            <state relative-caret-position="340">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+                <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
               </folding>
             </state>
           </provider>
@@ -58,10 +57,10 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
-                <marker date="1486082152945" expanded="true" signature="206:342" placeholder="SELECT Answe... Answers" />
+                <marker date="1486082896725" expanded="true" signature="225:336" placeholder="SELECT Answe... Answers" />
               </folding>
             </state>
           </provider>
@@ -548,7 +547,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1486082152945" expanded="true" signature="206:342" placeholder="SELECT Answe... Answers" />
+            <marker date="1486082896725" expanded="true" signature="225:336" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -569,7 +568,7 @@
           <caret line="22" column="10" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -579,7 +578,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486082152945" expanded="true" signature="206:342" placeholder="SELECT Answe... Answers" />
+            <marker date="1486082896725" expanded="true" signature="225:336" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -600,7 +599,7 @@
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -629,7 +628,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -658,7 +657,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -687,7 +686,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -716,7 +715,7 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -745,7 +744,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -767,7 +766,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
@@ -928,21 +927,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <marker date="1486082152945" expanded="true" signature="206:342" placeholder="SELECT Answe... Answers" />
+            <marker date="1486082896725" expanded="true" signature="225:336" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="152" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486082247420" expanded="true" signature="367:503" placeholder="SELECT Answe... Answers" />
+            <marker date="1486083029316" expanded="true" signature="367:485" placeholder="SELECT Answe... Answers" />
           </folding>
         </state>
       </provider>

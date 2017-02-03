@@ -15,7 +15,7 @@ def route_response_logic(recieved_message):
 
     for msg in msg_list:
         cursor.execute(
-            "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE LOWER('% '|| ? || ' %') ORDER BY RANDOM() LIMIT 1;",
+            "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords = LOWER(?) ORDER BY RANDOM() LIMIT 1;",
             (msg,))
         row = cursor.fetchone()
         if row is not None:
