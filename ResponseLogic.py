@@ -2,6 +2,7 @@ import sqlite3
 from flask import g
 
 global conn, cursor, answer
+user_inputs = []
 
 
 def route_response_logic(recieved_message):
@@ -10,6 +11,11 @@ def route_response_logic(recieved_message):
     if db is None:
         conn = g.__database = sqlite3.connect('ReverseIndex')
         cursor = conn.cursor()
+
+    user_inputs.append(recieved_message)
+
+    if recieved_message in user_inputs:
+        return "Hey you already asked me that question, try another one"
 
     msg_list = recieved_message.split()
 
@@ -22,4 +28,10 @@ def route_response_logic(recieved_message):
             res = row[0]
             return res
 
-    return "Sorry I am not sure about that question or response, I am going to have to get smarter for that one..."
+
+    cursor.execute(
+    "SELECT ConnectingResponse FROM `Unknown Answers` ORDER BY RANDOM() LIMIT 1;"
+    )
+
+    connecting_resp = cursor.fetchone()
+    return connecting_resp[0]
