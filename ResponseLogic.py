@@ -12,10 +12,10 @@ def route_response_logic(recieved_message):
         conn = g.__database = sqlite3.connect('ReverseIndex')
         cursor = conn.cursor()
 
-    user_inputs.append(recieved_message)
-
     if recieved_message in user_inputs:
         return "Hey you already asked me that question, try another one"
+
+    user_inputs.append(recieved_message)
 
     msg_list = recieved_message.split()
 

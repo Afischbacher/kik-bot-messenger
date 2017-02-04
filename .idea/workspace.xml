@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa8f058-b7cf-4497-bacb-7e88d69eb04b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReverseIndex" afterPath="$PROJECT_DIR$/ReverseIndex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ResponseLogic.py" afterPath="$PROJECT_DIR$/ResponseLogic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
@@ -46,12 +44,12 @@
       <file leaf-file-name="ResponseLogic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+            <state relative-caret-position="289">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-                <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+                <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+                <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
               </folding>
             </state>
           </provider>
@@ -102,8 +100,8 @@
         <option value="$PROJECT_DIR$/TextLogic.py" />
         <option value="$PROJECT_DIR$/WeatherLogic.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/ResponseLogic.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/ResponseLogic.py" />
       </list>
     </option>
   </component>
@@ -577,8 +575,8 @@
           <caret line="22" column="10" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -612,8 +610,8 @@
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -642,8 +640,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -672,8 +670,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -702,8 +700,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -732,8 +730,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -762,8 +760,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -785,8 +783,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -960,12 +958,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486248910658" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248910658" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
+            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
