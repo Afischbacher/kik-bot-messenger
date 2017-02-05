@@ -1,6 +1,7 @@
 import sqlite3
 from flask import g
 from Location_Finder import get_location
+import sqlite3
 
 global conn, cursor, answer
 
@@ -12,10 +13,11 @@ def route_response_logic(recieved_message):
         conn = g.__database = sqlite3.connect('ReverseIndex')
         cursor = conn.cursor()
 
-    msg_list = recieved_message.split()
-
-    if "location" in msg_list:
+    if "location" in recieved_message or "Location" in recieved_message:
         get_location()
+        return
+
+    msg_list = recieved_message.split()
 
     for msg in msg_list:
         cursor.execute(
