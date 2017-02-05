@@ -7,4 +7,4 @@ def get_location():
     ip_address = json.load(resp)
     location_country = ip_address['country']
     location_region = ip_address['region']
-    print( "Looks like your in the country of {0} and the region of {1}".format(location_country,location_region))
+    return "Looks like your in the country of {0} and the region of {1}".format(location_country,location_region)
