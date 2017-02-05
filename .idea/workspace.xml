@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa8f058-b7cf-4497-bacb-7e88d69eb04b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ResponseLogic.py" afterPath="$PROJECT_DIR$/ResponseLogic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Location_Finder.py" afterPath="$PROJECT_DIR$/Location_Finder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <ignored path="Kik Bot Messenger.iws" />
@@ -17,7 +18,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/kik-bot-messenger$test.coverage" NAME="test Coverage Results" MODIFIED="1486248747806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kik-bot-messenger$test.coverage" NAME="test Coverage Results" MODIFIED="1486251363559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kik-bot-messenger$Location_Finder.coverage" NAME="Location_Finder Coverage Results" MODIFIED="1486253173704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kik-bot-messenger$Kik_Bot_Messenger.coverage" NAME="Kik Bot Messenger Coverage Results" MODIFIED="1484597201562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -41,30 +43,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseLogic.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResponseLogic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-                <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+                <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+                <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="Location_Finder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Location_Finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding>
-                <marker date="1486248924893" expanded="true" signature="219:356" placeholder="SELECT Answe... Answers" />
-                <marker date="1486248924893" expanded="true" signature="496:553" placeholder="SELECT Conne... Unknown Answers" />
-                <marker date="1486248924893" expanded="true" signature="496:562" placeholder="SELECT Conne... Unknown Answers" />
-                <marker date="1486248924893" expanded="true" signature="496:570" placeholder="SELECT Conne... Unknown Answers" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +101,7 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ResponseLogic.py" />
+        <option value="$PROJECT_DIR$/Location_Finder.py" />
       </list>
     </option>
   </component>
@@ -190,11 +190,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="settings&#9;ACTION&#9;Database.Settings" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;settings&#9;ACTION&#9;Database.Settings" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.Location_Finder">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,6 +209,24 @@
       <module name="kik-bot-messenger" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Location_Finder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kik-bot-messenger" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Location_Finder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -457,14 +475,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Kik Bot Messenger" />
       <item index="1" class="java.lang.String" itemvalue="Python.kik-bot-messenger" />
       <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Location_Finder" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.Location_Finder" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +516,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3266385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -546,19 +566,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1486248924893" expanded="true" signature="219:356" placeholder="SELECT Answe... Answers" />
-            <marker date="1486248924893" expanded="true" signature="496:553" placeholder="SELECT Conne... Unknown Answers" />
-            <marker date="1486248924893" expanded="true" signature="496:562" placeholder="SELECT Conne... Unknown Answers" />
-            <marker date="1486248924893" expanded="true" signature="496:570" placeholder="SELECT Conne... Unknown Answers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -575,8 +582,8 @@
           <caret line="22" column="10" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -610,8 +617,8 @@
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -640,8 +647,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -670,8 +677,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -700,8 +707,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -730,8 +737,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -760,8 +767,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -783,8 +790,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
           </folding>
         </state>
       </provider>
@@ -958,12 +965,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ResponseLogic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1486249165701" expanded="true" signature="540:677" placeholder="SELECT Answe... Answers" />
-            <marker date="1486249165701" expanded="true" signature="836:910" placeholder="SELECT Conne... Unknown Answers" />
+            <marker date="1486253283915" expanded="true" signature="471:608" placeholder="SELECT Answe... Answers" />
+            <marker date="1486253283915" expanded="true" signature="767:841" placeholder="SELECT Conne... Unknown Answers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Location_Finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

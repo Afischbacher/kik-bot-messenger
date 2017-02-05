@@ -1,5 +1,5 @@
 import json
-import urllib.response
+import urllib.request
 
 
 def get_location():
