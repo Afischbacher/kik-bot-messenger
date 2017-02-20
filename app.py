@@ -6,8 +6,7 @@ from flask import Flask, request, Response
 import os
 from kik import KikApi, Configuration
 from response_logic import route_response_logic
-from kik.messages import messages_from_json, TextMessage, StartChattingMessage, ScanDataMessage, LinkMessage, \
-    DeliveryReceiptMessage, ReadReceiptMessage, VideoMessage
+from kik.messages import messages_from_json, TextMessage
 
 app = Flask(__name__)
 

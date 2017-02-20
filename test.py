@@ -6,7 +6,7 @@ def logic():
     conn = sqlite3.connect('ResponseDatabase')
     cursor = conn.cursor()
 
-    resp = "Location"
+    resp = "Hey"
     msg_list = resp.split()
 
     if "location" in resp or "Location" in resp:
