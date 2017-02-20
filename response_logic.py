@@ -23,7 +23,6 @@ def route_response_logic(recieved_message):
             "SELECT Answers FROM Answers, Keywords WHERE Answers.ID = Keywords.ID AND Keywords LIKE '% ' || LOWER(?) || ' %' ORDER BY RANDOM() LIMIT 1;",
             (msg,))
         row = cursor.fetchone()
-
         if row is not None:
             res = row[0]
             return res
