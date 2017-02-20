@@ -1,11 +1,10 @@
-# Kik bot messenger using Python 3.6, Flask, Gunicorn, SQLite3 and Jinja 2
+# Kik bot messenger using Python 3, Flask, Gunicorn and Jinja 2
 # By: Andre Fischbacher
-# Date: 2017-02-06
 
 from flask import Flask, request, Response
 import os
 from kik import KikApi, Configuration
-from response_logic import route_response_logic
+from ResponseLogic import route_response_logic
 from kik.messages import messages_from_json, TextMessage, StartChattingMessage, ScanDataMessage, LinkMessage, \
     DeliveryReceiptMessage, ReadReceiptMessage, VideoMessage
 
