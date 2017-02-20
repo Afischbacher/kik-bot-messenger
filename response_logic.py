@@ -1,10 +1,8 @@
-import sqlite3
 from flask import g
 from location_finder import get_location
 import sqlite3
 
 global conn, cursor, answer
-
 
 def route_response_logic(recieved_message):
     db = getattr(g, '__database', None)
